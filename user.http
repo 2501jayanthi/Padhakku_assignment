@@ -1,0 +1,37 @@
+
+###
+GET http://localhost:3000/api/1/
+
+###
+POST  http://localhost:3000/api/signup/
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"rahul",
+    "email":"rahul123@gmail.com"
+}
+
+###
+POST http://localhost:3000/api/posts/
+Content-Type: application/json
+
+{
+    "id":2,
+    "content":"My Name is Jayanthi Dhavala"
+}
+###
+POST http://localhost:3000/api/posts/
+Content-Type: application/json
+
+{
+    "id":3,
+    "content":"My Name is Ravikiran Dhavala"
+}
+
+
+###
+DELETE http://localhost:3000/api/deletepost/1/
+
+###
+GET http://localhost:3000//api/1/posts
